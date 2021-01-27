@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kounuki/CLionProjects/sodoku/main.cpp
+cstdio
+-
+sudoku.h
+/Users/kounuki/CLionProjects/sodoku/sudoku.h
+
+/Users/kounuki/CLionProjects/sodoku/sudoku.cpp
+sudoku.h
+/Users/kounuki/CLionProjects/sodoku/sudoku.h
+cstdio
+-
+
+/Users/kounuki/CLionProjects/sodoku/sudoku.h
+
