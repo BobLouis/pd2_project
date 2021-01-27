@@ -1,3 +1,3 @@
-/Users/kounuki/CLionProjects/sodoku/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/kounuki/CLionProjects/sodoku/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/kounuki/CLionProjects/sodoku/cmake-build-debug/CMakeFiles/sodoku.dir
+/Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug/CMakeFiles/sodoku.dir

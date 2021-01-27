@@ -64,10 +64,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kounuki/CLionProjects/sodoku
+CMAKE_SOURCE_DIR = /Users/kounuki/CLionProjects/sudoku/sudoku_solve
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kounuki/CLionProjects/sodoku/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -94,14 +94,14 @@ clean: CMakeFiles/sodoku.dir/clean
 CMakeFiles/sodoku.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sodoku.dir/build.make CMakeFiles/sodoku.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sodoku.dir/build.make CMakeFiles/sodoku.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kounuki/CLionProjects/sodoku/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target sodoku"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target sodoku"
 .PHONY : CMakeFiles/sodoku.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sodoku.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kounuki/CLionProjects/sodoku/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sodoku.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kounuki/CLionProjects/sodoku/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/sodoku.dir/rule
 
 # Convenience name for target.

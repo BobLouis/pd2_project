@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kounuki/CLionProjects/sodoku
+CMAKE_SOURCE_DIR = /Users/kounuki/CLionProjects/sudoku/sudoku_solve
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kounuki/CLionProjects/sodoku/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/sodoku.dir/depend.make
@@ -79,29 +79,29 @@ include CMakeFiles/sodoku.dir/flags.make
 
 CMakeFiles/sodoku.dir/main.cpp.o: CMakeFiles/sodoku.dir/flags.make
 CMakeFiles/sodoku.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kounuki/CLionProjects/sodoku/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sodoku.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sodoku.dir/main.cpp.o -c /Users/kounuki/CLionProjects/sodoku/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sodoku.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sodoku.dir/main.cpp.o -c /Users/kounuki/CLionProjects/sudoku/sudoku_solve/main.cpp
 
 CMakeFiles/sodoku.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sodoku.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kounuki/CLionProjects/sodoku/main.cpp > CMakeFiles/sodoku.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kounuki/CLionProjects/sudoku/sudoku_solve/main.cpp > CMakeFiles/sodoku.dir/main.cpp.i
 
 CMakeFiles/sodoku.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sodoku.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kounuki/CLionProjects/sodoku/main.cpp -o CMakeFiles/sodoku.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kounuki/CLionProjects/sudoku/sudoku_solve/main.cpp -o CMakeFiles/sodoku.dir/main.cpp.s
 
 CMakeFiles/sodoku.dir/sudoku.cpp.o: CMakeFiles/sodoku.dir/flags.make
 CMakeFiles/sodoku.dir/sudoku.cpp.o: ../sudoku.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kounuki/CLionProjects/sodoku/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sodoku.dir/sudoku.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sodoku.dir/sudoku.cpp.o -c /Users/kounuki/CLionProjects/sodoku/sudoku.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sodoku.dir/sudoku.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sodoku.dir/sudoku.cpp.o -c /Users/kounuki/CLionProjects/sudoku/sudoku_solve/sudoku.cpp
 
 CMakeFiles/sodoku.dir/sudoku.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sodoku.dir/sudoku.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kounuki/CLionProjects/sodoku/sudoku.cpp > CMakeFiles/sodoku.dir/sudoku.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kounuki/CLionProjects/sudoku/sudoku_solve/sudoku.cpp > CMakeFiles/sodoku.dir/sudoku.cpp.i
 
 CMakeFiles/sodoku.dir/sudoku.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sodoku.dir/sudoku.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kounuki/CLionProjects/sodoku/sudoku.cpp -o CMakeFiles/sodoku.dir/sudoku.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kounuki/CLionProjects/sudoku/sudoku_solve/sudoku.cpp -o CMakeFiles/sodoku.dir/sudoku.cpp.s
 
 # Object files for target sodoku
 sodoku_OBJECTS = \
@@ -115,7 +115,7 @@ sodoku: CMakeFiles/sodoku.dir/main.cpp.o
 sodoku: CMakeFiles/sodoku.dir/sudoku.cpp.o
 sodoku: CMakeFiles/sodoku.dir/build.make
 sodoku: CMakeFiles/sodoku.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kounuki/CLionProjects/sodoku/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable sodoku"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable sodoku"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sodoku.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +128,6 @@ CMakeFiles/sodoku.dir/clean:
 .PHONY : CMakeFiles/sodoku.dir/clean
 
 CMakeFiles/sodoku.dir/depend:
-	cd /Users/kounuki/CLionProjects/sodoku/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kounuki/CLionProjects/sodoku /Users/kounuki/CLionProjects/sodoku /Users/kounuki/CLionProjects/sodoku/cmake-build-debug /Users/kounuki/CLionProjects/sodoku/cmake-build-debug /Users/kounuki/CLionProjects/sodoku/cmake-build-debug/CMakeFiles/sodoku.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kounuki/CLionProjects/sudoku/sudoku_solve /Users/kounuki/CLionProjects/sudoku/sudoku_solve /Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug /Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug /Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug/CMakeFiles/sodoku.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sodoku.dir/depend
 

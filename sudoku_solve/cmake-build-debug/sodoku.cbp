@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/kounuki/CLionProjects/sodoku/cmake-build-debug"/>
+				<Option working_dir="/Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sodoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sodoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sodoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sodoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/kounuki/CLionProjects/sodoku/cmake-build-debug"/>
+				<Option working_dir="/Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sodoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sodoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sodoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sodoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/kounuki/CLionProjects/sodoku/cmake-build-debug"/>
+				<Option working_dir="/Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sodoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sodoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sodoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sodoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="sodoku">
-				<Option output="/Users/kounuki/CLionProjects/sodoku/cmake-build-debug/sodoku" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/kounuki/CLionProjects/sodoku/cmake-build-debug"/>
+				<Option output="/Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug/sodoku" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sodoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 sodoku"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sodoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sodoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sodoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug/Makefile&quot;  VERBOSE=1 sodoku"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="sodoku/fast">
-				<Option output="/Users/kounuki/CLionProjects/sodoku/cmake-build-debug/sodoku" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/kounuki/CLionProjects/sodoku/cmake-build-debug"/>
+				<Option output="/Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug/sodoku" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,23 +73,23 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sodoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 sodoku/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sodoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sodoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sodoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug/Makefile&quot;  VERBOSE=1 sodoku/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kounuki/CLionProjects/sudoku/sudoku_solve/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/kounuki/CLionProjects/sodoku/main.cpp">
+		<Unit filename="/Users/kounuki/CLionProjects/sudoku/sudoku_solve/main.cpp">
 			<Option target="sodoku"/>
 		</Unit>
-		<Unit filename="/Users/kounuki/CLionProjects/sodoku/sudoku.cpp">
+		<Unit filename="/Users/kounuki/CLionProjects/sudoku/sudoku_solve/sudoku.cpp">
 			<Option target="sodoku"/>
 		</Unit>
-		<Unit filename="/Users/kounuki/CLionProjects/sodoku/sudoku.h">
+		<Unit filename="/Users/kounuki/CLionProjects/sudoku/sudoku_solve/sudoku.h">
 			<Option target="sodoku"/>
 		</Unit>
-		<Unit filename="/Users/kounuki/CLionProjects/sodoku/CMakeLists.txt">
+		<Unit filename="/Users/kounuki/CLionProjects/sudoku/sudoku_solve/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
