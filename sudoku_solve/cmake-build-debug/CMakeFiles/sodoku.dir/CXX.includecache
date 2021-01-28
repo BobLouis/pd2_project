@@ -11,11 +11,7 @@ cstdio
 -
 sudoku.h
 /Users/kounuki/CLionProjects/sudoku/sudoku_solve/sudoku.h
-
-/Users/kounuki/CLionProjects/sudoku/sudoku_solve/sudoku.cpp
-sudoku.h
-/Users/kounuki/CLionProjects/sudoku/sudoku_solve/sudoku.h
-cstdio
+iostream
 -
 
 /Users/kounuki/CLionProjects/sudoku/sudoku_solve/sudoku.h

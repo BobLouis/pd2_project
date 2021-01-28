@@ -4,9 +4,8 @@
 
 #include "sudoku.h"
 #include <cstdio>
-bool sudoku::solver(int grid[N][N]){
-    int origin[N][N];
 
+bool sudoku::solver(int grid[N][N]){
     int col , row;
     if(findEntry(grid,row,col)==false){
         return true;
@@ -15,7 +14,24 @@ bool sudoku::solver(int grid[N][N]){
         if(isSafe(grid,row,col,num)){
             grid[row][col]=num;
             if(solver(grid)){
-                return true;
+                count++;
+//                printf("%d\n",count);
+//                for(int i=0;i<N;++i){
+//                    for(int j=0;j<N;++j){
+//                        printf("%d ",grid[i][j]);
+//                    }
+//                    printf("\n");
+//                }
+//                printf("\n");
+                if(count==1){
+                    for(int i=0;i<N;++i){
+                        for(int j=0;j<N;++j){
+                            uni_solve[i][j]=grid[i][j];
+                        }
+                    }
+                }
+                grid[row][col]=UNASSIGHED;
+
             }else{
                 grid[row][col]=UNASSIGHED;
                 //if the solver return false erase the new one
@@ -79,7 +95,7 @@ bool sudoku::isSafe(int grid[N][N],int row,int col,int num){
 void sudoku::print(int grid [N][N]){
     for (int i = 0; i < N; ++i) {
         for (int j = 0; j < N; ++j) {
-            printf("%d ", grid[i][j]);
+            printf("%d ", uni_solve[i][j]);
         }
         printf("\n");
     }
@@ -91,4 +107,12 @@ void sudoku::scan(int grid[N][N]){
             scanf("%d",&grid[i][j]);
         }
     }
+}
+
+int sudoku::result() {
+    return count;
+}
+
+void sudoku::print_unique(){
+    print(uni_solve);
 }

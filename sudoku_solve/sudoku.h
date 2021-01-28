@@ -12,7 +12,12 @@ public:
     bool solver(int grid[N][N]);
     void print(int grid[N][N]);
     void scan(int grid[N][N]);
+    int result();
+    void print_unique();
+
 private:
+    int count=0;
+    int uni_solve[N][N];
     bool isSafe(int grid[N][N],int row,int col,int num);
     bool findEntry(int grid[N][N],int& row,int& col);
     bool checkRow(int grid[N][N],int row,int num);
