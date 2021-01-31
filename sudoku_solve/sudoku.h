@@ -14,6 +14,13 @@ public:
     void scan(int grid[N][N]);
     int result();
     void print_unique();
+    //transform
+    void changeNum(int grid[N][N],int x,int y);
+    void changeRow(int grid[N][N],int x, int y);
+    void changeCol(int grid[N][N],int x,int y);
+    void counterRotate(int grid[N][N]);
+    void upDownFlip(int grid[N][N]);
+    void leftRightFlip(int grid[N][N]);
 
 private:
     int count=0;

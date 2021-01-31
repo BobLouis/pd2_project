@@ -12,5 +12,11 @@ sudoku.h
 iostream
 -
 
+/Users/kounuki/CLionProjects/sudoku/sudoku_solve/sudoku.cpp
+sudoku.h
+/Users/kounuki/CLionProjects/sudoku/sudoku_solve/sudoku.h
+cstdio
+-
+
 /Users/kounuki/CLionProjects/sudoku/sudoku_solve/sudoku.h
 
