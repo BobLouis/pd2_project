@@ -95,7 +95,7 @@ bool sudoku::isSafe(int grid[N][N],int row,int col,int num){
 void sudoku::print(int grid [N][N]){
     for (int i = 0; i < N; ++i) {
         for (int j = 0; j < N; ++j) {
-            printf("%d ", uni_solve[i][j]);
+            printf("%d ", grid[i][j]);
         }
         printf("\n");
     }
